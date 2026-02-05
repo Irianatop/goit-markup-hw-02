@@ -3,6 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #ffffff;
+    margin: 0;
 }
 
 ul {
@@ -21,6 +22,9 @@ a {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    text-transform: uppercase;
     color: #2e2f42;
 }
 
@@ -29,8 +33,18 @@ a {
 }
 
 /* NAVIGATION */
+.nav-list {
+    display: flex;
+    gap: 32px;
+}
+
 .nav-link {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #2e2f42;
 }
 
 .nav-link:hover,
@@ -39,6 +53,19 @@ a {
 }
 
 /* CONTACTS */
+.contacts {
+    font-style: normal;
+}
+
+.contact-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: #2e2f42;
+}
+
 .contact-link:hover,
 .contact-link:focus {
     color: #404bbf;
@@ -53,18 +80,24 @@ a {
 
 .hero-title {
     color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 56px;
-    line-height: 1.07;
+    line-height: 1.1;
+    letter-spacing: 1px;
     margin-bottom: 40px;
 }
 
 .hero-button {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 1px;
     color: #ffffff;
     background-color: #4d5ae5;
     border: none;
     padding: 16px 32px;
-    font-size: 18px;
     cursor: pointer;
 }
 
@@ -75,8 +108,11 @@ a {
 
 /* SECTION TITLES */
 .section-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.1;
+    letter-spacing: 1px;
     text-align: center;
     color: #2e2f42;
     margin-bottom: 40px;
@@ -84,14 +120,31 @@ a {
 
 /* FEATURES */
 .features-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 1px;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 32px;
 }
 
 .features-text {
-    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: #434455;
+}
+
+.features-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 /* TEAM */
@@ -100,15 +153,37 @@ a {
     padding: 60px 20px;
 }
 
+.team-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 32px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.team-item {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
 .team-name {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 1px;
     color: #2e2f42;
+    margin: 16px 0 8px;
 }
 
 .team-position {
-    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: #434455;
 }
 
 /* PORTFOLIO */
@@ -116,15 +191,37 @@ a {
     padding: 60px 20px;
 }
 
+.portfolio-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.portfolio-item {
+    background-color: #ffffff;
+    padding: 16px;
+    text-align: center;
+}
+
 .portfolio-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 1px;
     color: #2e2f42;
+    margin-top: 16px;
 }
 
 .portfolio-text {
-    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: #434455;
 }
 
 /* FOOTER */
@@ -135,13 +232,21 @@ a {
 }
 
 .footer-logo {
-    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
 }
 
 .footer-text {
-    color: #f4f4fd;
-    line-height: 1.5;
-    margin-top: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: #f4f4fd;
+    margin-top: 16px;
 }
