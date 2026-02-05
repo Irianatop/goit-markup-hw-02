@@ -1,1 +1,147 @@
- 
+/* BASE */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* LOGO */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #2e2f42;
+}
+
+.logo-accent {
+    color: #4d5ae5;
+}
+
+/* NAVIGATION */
+.nav-link {
+    font-weight: 500;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
+}
+
+/* CONTACTS */
+.contact-link:hover,
+.contact-link:focus {
+    color: #404bbf;
+}
+
+/* HERO */
+.hero {
+    background-color: #2e2f42;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero-title {
+    color: #ffffff;
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 40px;
+}
+
+.hero-button {
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #4d5ae5;
+    border: none;
+    padding: 16px 32px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404bbf;
+}
+
+/* SECTION TITLES */
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 40px;
+}
+
+/* FEATURES */
+.features-title {
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+
+.features-text {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+/* TEAM */
+.team {
+    background-color: #f4f4fd;
+    padding: 60px 20px;
+}
+
+.team-name {
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+
+.team-position {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+/* PORTFOLIO */
+.portfolio {
+    padding: 60px 20px;
+}
+
+.portfolio-title {
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+
+.portfolio-text {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+/* FOOTER */
+.page-footer {
+    background-color: #2e2f42;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-logo {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.footer-text {
+    color: #f4f4fd;
+    line-height: 1.5;
+    margin-top: 16px;
+    font-size: 16px;
+}
