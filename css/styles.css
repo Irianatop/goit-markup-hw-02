@@ -1,77 +1,63 @@
-/* BASE */
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #ffffff;
-    margin: 0;
-}
+    }
 
-ul {
+ul,
+ol{
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 a {
     text-decoration: none;
-    color: inherit;
 }
 
-/* LOGO */
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.2;
-    letter-spacing: 2px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
-}
-
-.logo-accent {
     color: #4d5ae5;
 }
 
-/* NAVIGATION */
-.nav-list {
-    display: flex;
-    gap: 32px;
+.header-logo .logo-part {
+    color:#2e2f42
+}
+
+.footer-logo .logo-part{
+    color: #f4f4fd
 }
 
 .nav-link {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-weight: 500; 
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 1px;
+    letter-spacing: 0.02em;
     color: #2e2f42;
+}
+
+.contacts {
+    font-style: normal;
+} 
+
+.contact-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .nav-link:hover,
-.nav-link:focus {
-    color: #404bbf;
-}
-
-/* CONTACTS */
-.contacts {
-    font-style: normal;
-}
-
-.contact-link {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.5px;
-    color: #2e2f42;
-}
-
+.nav-link:focus,
 .contact-link:hover,
 .contact-link:focus {
     color: #404bbf;
 }
 
-/* HERO */
+
 .hero {
     background-color: #2e2f42;
     text-align: center;
@@ -106,7 +92,7 @@ a {
     background-color: #404bbf;
 }
 
-/* SECTION TITLES */
+
 .section-title {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -118,7 +104,7 @@ a {
     margin-bottom: 40px;
 }
 
-/* FEATURES */
+
 .features-title {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -147,7 +133,7 @@ a {
     margin: 0 auto;
 }
 
-/* TEAM */
+
 .team {
     background-color: #f4f4fd;
     padding: 60px 20px;
@@ -186,7 +172,7 @@ a {
     color: #434455;
 }
 
-/* PORTFOLIO */
+
 .portfolio {
     padding: 60px 20px;
 }
@@ -224,7 +210,7 @@ a {
     color: #434455;
 }
 
-/* FOOTER */
+
 .page-footer {
     background-color: #2e2f42;
     padding: 40px 20px;
