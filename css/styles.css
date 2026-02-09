@@ -56,13 +56,15 @@ a {
 .contacts-link:focus {
     color: #404bbf;
 }
-
 address {
     font-style: normal;
 }
 
 .contacts-link {
     font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -73,18 +75,16 @@ address {
 
 
 .hero {
-    text-align: center;
-    padding: 80px 20px;
     background-color: #2e2f42;
+    text-align: center;
 }
 
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07;
+    line-height: 1.071;
     letter-spacing: 0.02em;
     color: #ffffff;
-    margin-bottom: 40px;
 }
 
 .hero-button {
@@ -95,8 +95,9 @@ address {
     color: #ffffff;
     background-color: #4d5ae5;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
-    padding: 12px 24px;
+    padding: 14px 32px;
 }
 
 .hero-button:hover,
@@ -109,18 +110,24 @@ address {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 40px;
 }
 
+
+.features-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
 
 .features-item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
-    margin-bottom: 16px;
 }
 
 .features-text {
@@ -131,13 +138,18 @@ address {
 }
 
 
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
 .team-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
-    margin: 16px 0 8px;
-    text-align: center;
 }
 
 .team-position {
@@ -145,17 +157,21 @@ address {
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
-    text-align: center;
 }
 
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
 
 .portfolio-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
-    margin-top: 16px;
-    text-align: center;
 }
 
 .portfolio-text {
@@ -163,23 +179,12 @@ address {
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
-    text-align: center;
-}
-
-
-.features-list,
-.team-list,
-.portfolio-list {
-    padding: 0;
-    margin: 0 auto;
-    max-width: 1000px;
 }
 
 
 .page-footer {
     background-color: #2e2f42;
     text-align: center;
-    padding: 40px 20px;
 }
 
 .footer-text {
@@ -187,5 +192,4 @@ address {
     font-size: 16px;
     line-height: 1.5;
     color: #f4f4fd;
-    margin-top: 16px;
 }
