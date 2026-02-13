@@ -23,6 +23,10 @@ a {
     color: #4d5ae5;
 }
 
+.header-logo{
+    margin-right: 76px;
+}
+
 .header-logo .logo-part {
     color: #2e2f42;
 }
@@ -44,6 +48,7 @@ a {
 }
 
 .contacts-link {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -56,15 +61,17 @@ a {
 .contacts-link:focus {
     color: #404bbf;
 }
+.page-footer {
+    background-color: #2e2f42;
+} 
 
 
 .hero {
     background-color: #2e2f42;
-    text-align: center;
-    padding: 188px 0;
 }
 
 .hero-title {
+    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -73,29 +80,44 @@ a {
 
 .hero-button {
     font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     background-color: #4d5ae5;
     color: #ffffff;
-    letter-spacing: 0.04em;
     cursor: pointer;
 }
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404bbf;
+   }
 
 
 .section-title {
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
 }
 
 
 .features-item-title {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .features-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 
@@ -107,27 +129,48 @@ a {
     background-color: #ffffff;
 }
 
-.team-name,
-.team-position {
-    text-align: center;
+.team-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
 }
 
 
 .portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 
-.footer {
-    background-color: #2e2f42;
-}
+
 
 .footer-text {
-    color: #f4f4fd;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
